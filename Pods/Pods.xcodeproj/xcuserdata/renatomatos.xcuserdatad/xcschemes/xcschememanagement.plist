@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GeoFire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MapboxDirections.swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-GeoSample.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Polyline.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,7 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F7158FD7F070632CF8503263C81002C4</key>
+		<key>1C080055654F530AA845FF3429077B74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4946801F0E7BDBF964B5B4312318FB0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7908849B370564D3342427B24CCD92B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C93BB2C850F2E4BB09BF2BBE1A027FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
