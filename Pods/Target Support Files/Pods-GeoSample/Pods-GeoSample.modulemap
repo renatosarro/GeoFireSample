@@ -1,0 +1,6 @@
+framework module Pods_GeoSample {
+  umbrella header "Pods-GeoSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

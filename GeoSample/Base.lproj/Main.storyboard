@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6xi-EK-KvZ">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="14" minValue="12" maxValue="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mef-CX-iCG">
+                                <connections>
+                                    <action selector="zoomChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="Hug-P0-gtz"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6xi-EK-KvZ" secondAttribute="bottom" id="OP9-Yk-Pco"/>
+                            <constraint firstItem="6xi-EK-KvZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RNL-4r-UI4"/>
+                            <constraint firstItem="6xi-EK-KvZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ahr-1v-OnM"/>
+                            <constraint firstAttribute="trailing" secondItem="Mef-CX-iCG" secondAttribute="trailing" constant="20" id="pcg-ew-QSo"/>
+                            <constraint firstItem="Mef-CX-iCG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="qch-cY-ZqB"/>
+                            <constraint firstAttribute="bottom" secondItem="Mef-CX-iCG" secondAttribute="bottom" constant="20" id="sNe-1F-pef"/>
+                            <constraint firstAttribute="trailing" secondItem="6xi-EK-KvZ" secondAttribute="trailing" id="sQr-gN-tdt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sliderZoom" destination="Mef-CX-iCG" id="qi0-aB-EMD"/>
+                        <outlet property="viewMap" destination="6xi-EK-KvZ" id="kxn-rv-q2x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
